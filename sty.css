@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    flex-direction: row;
+}
+.lef{
+    border: solid 6px red;
+    width: 1100px;
+    height: 1000px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+     
+}
+
+.rig{
+    border: solid 6px blue;
+    width: 200px;
+    height: 200px;
+}
+
+.rig > img{
+    object-fit: contain;
+}

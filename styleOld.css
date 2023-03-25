@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 62.5%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 110rem;
+    font-size: 1.6rem;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px grey;
+    height: 10rem;
+    width: 100%;
+}
+
+.top-nav-lef{
+    display: flex;
+    flex-direction: row;
+    /* border: solid 8px rgb(7, 186, 151); */
+    height: 100%;
+}
+
+.top-nav-lef > img{
+    height:fit-content;
+    width:fit-content;
+    align-self: center;
+}
+
+.top-nav-lef > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50rem;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 0px 0px 5rem;
+}
+
+.top-nav-rig{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: solid 8px rgb(11, 8, 8); */
+    height: 100%;
+    width: 14rem;
+}
+
+.top-nav-rig > :nth-child(1){
+    height: 3rem;
+    width: 3rem;
+    align-self: center;
+}
+
+.top-nav-rig > :nth-child(2){
+    height:6rem;
+    width:6rem;
+    align-self: center;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    /* border: solid 5px rebeccapurple; */
+}
+
+.main-body-lef{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5rem;
+    /* border: solid 6px burlywood; */
+}
+
+.main-body-lef > img{
+    background-size: contain;
+    height: 50rem;
+    width: 50rem;
+    max-width: 100%;
+    margin-bottom: 5rem;
+}
+                   
+.main-body-lef > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: solid 2px black; */
+}
+
+.main-body-lef > div > img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.main-body-rig{
+    width: 50%;
+    padding: 5rem;
+}
+
+.main-body-rig > :nth-child(3){
+    
+}
+
+
